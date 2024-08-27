@@ -1,7 +1,21 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-    background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.card {
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 24px;
+}
+.card-img {
+  width: 326px;
+  height: 179.3px;
 }
